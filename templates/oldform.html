@@ -1,0 +1,66 @@
+<form action = '/home' method = 'post'>
+    <br>
+    <br>
+    <h1><center>Expense Manager</center></h1>
+    <p><center><b>Manage your expenses here.....</b></center></p>
+    <div class="container">
+    <div class ="row">
+    <div class ="col">
+   <label for="Date">Date :</label>
+    <input type="date" id="Date" name="Date">
+    </div>
+    <br>
+    <br>
+    <div class ="col">
+    <label for = "Category">Category :</label>
+    <select name = "Category" id ="Category">
+        <option value ="Home">Home</option>
+        <option value ="Transport">Transport</option>
+        <option value ="Grocery">Grocery</option>
+        <option value ="Food">Food</option>
+        <option value ="Entertainment">Entertainment</option>
+        <option value ="Phone">Phone</option>
+        <option value ="Self care">Self care</option>
+        <option value ="Extras">Extras</option>
+    </select>
+    </div>
+    </div>
+    <br>
+    <br>
+    <div class ="row">
+    <div class ="col">
+    <label for = "sub_category">Sub Category :</label>
+    <select name = "sub_category" id ="sub_category">
+            <option value ="Rent">Rent</option>
+            <option value ="Decor">Decor</option>
+            <option value ="Electricity">Electricity</option>
+            <option value ="Utilities">Utilities</option>
+            <option value ="Internet">Internet</option>
+            <option value ="Car Insuarance">Car Insuarance</option>
+            <option value ="Gas">Gas</option>
+            <option value ="Bus">Bus</option>
+            <option value ="Vegetables">Vegetables</option>  
+            <option value ="Dairy">Dairy</option>
+         
+    </select> 
+    </div>
+    <br>
+    <br>
+    <div class ="col">
+    <label for="Expense">Expense :</label>
+    <input type="number" placeholder="Expense" name = 'Expense'> 
+    <br>
+    <br>    
+    </div>
+    </div>
+    <div class ="row">
+    <div class ="col">
+    <input type="SUBMIT" class="btn btn-primary" value = 'Submit'>
+    </div>
+    <div class ="col">
+    <input type="reset" class="btn btn-light" value = 'RESET'>
+    </div>
+    </div>
+    
+    
+</form>
